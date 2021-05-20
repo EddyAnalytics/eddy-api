@@ -9,8 +9,8 @@ const config: Config = {
   },
   swagger: {
     enabled: true,
-    title: 'Nestjs FTW',
-    description: 'The nestjs API description',
+    title: 'Eddy API',
+    description: 'REST API for the Eddy Analytics platform',
     version: '1.5',
     path: 'api',
   },

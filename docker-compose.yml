@@ -1,16 +1,16 @@
 version: '3.7'
 services:
-  nest-api:
-    container_name: nest-api
+  app:
     build:
       context: .
-      dockerfile: Dockerfile
     ports:
-      - 3000:3000
+      - 8000:3000
     depends_on:
       - postgres
     env_file:
       - .env
+    environment:
+      - DB_HOST=postgres
 
   postgres:
     image: postgres:12
@@ -25,4 +25,4 @@ services:
 
 volumes:
   postgres:
-    name: nest-db
+    name: eddy-api-db
