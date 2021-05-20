@@ -15,8 +15,6 @@
 ## Overview
 
 - [Instructions](#instructions)
-  - [Features](#features)
-  - [Overview](#overview)
   - [Prisma Setup](#prisma-setup)
     - [1. Install Dependencies](#1-install-dependencies)
     - [2. PostgreSQL with Docker](#2-PostgreSQL-with-docker)
